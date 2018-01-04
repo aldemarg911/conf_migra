@@ -1,0 +1,30 @@
+delete comisionvig_agente where cagente not in (19000);
+update recibos set cagente = 19000 where cagente <> 19000;
+update reciboscar set cagente = 19000;
+delete  contratosage where cagente not in (19000);
+delete redcomercial   where cagente  not in (19000);
+delete segurosredcom where cagente not in (19000 );
+delete ageredcom where cagente not in (19000 );
+delete age_paragentes where cagente not  in (19000);
+delete  agentes where cagente not in (19000);
+delete agentes_comp where cagente not in (19000 ); 
+delete  seguredcom where cageseg <> 19000;
+delete liquidalin where cagente <> 19000;
+delete liquidacab where cagente <> 19000; 
+delete ctactes where cagente <> 19000;
+update usuarios set cdelega = 19000;
+update seguros set cagente = 19000; 
+update tomadores set cdomici = null;
+delete per_direcciones where cagente <> 19000;
+delete from per_parpersonas where cagente <> 19000;
+delete per_identificador where cagente <> 19000;
+delete estper_direcciones;
+delete estper_detper;
+delete estper_contactos;
+delete estper_Ccc;
+delete per_Detper where cagente <> 19000;
+delete estper_nacionalidades;
+delete mig_agentes;
+delete mig_personas;
+
+

@@ -1,0 +1,215 @@
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:1
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:2
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:5047
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:4464
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:4044
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:3285
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:3184
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:3932
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6132
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6942
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:7009
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6969
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6945
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6334
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6654
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6780
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:5933
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6190
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6514
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6911
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6350
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6422
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:5854
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6808
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6228
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6566
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6402
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:5854
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6503
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6198
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6684
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:7205
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:6425
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:2056
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:1
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+Mig_personas - F - paso bullk
+Mig_personas -I - paso bullk
+...
+l_errors:118
+Mig_personas - F - paso bullk
+MIG_PERSONAS. 272458 reg cargados de 461404. Tiempo de Ejecución: 92,48 seg
+mig_direcciones - I - paso bullk
+l_errors:13012
+mig_direcciones - F - paso bullk
+mig_direcciones - I - paso bullk
+l_errors:8416
+mig_direcciones - F - paso bullk
+mig_direcciones - I - paso bullk
+l_errors:9844
+mig_direcciones - F - paso bullk
+mig_direcciones - I - paso bullk
+l_errors:15533
+mig_direcciones - F - paso bullk
+MIG_DIRECCIONES. 285105 reg cargados de 331910. Tiempo de Ejecución: 26,35 seg
+PERSONAS_REL - I - paso bullk
+...
+F - paso bullk
+PERSONAS_REL - I - paso bullk
+...
+F - paso bullk
+PERSONAS_REL - I - paso bullk
+...
+F - paso bullk
+MIG_PERSONAS_REL. 234436 reg cargados de 234436. Tiempo de Ejecución: 9,36 seg
+MIG_AGENTES. 195 reg cargados de 2153. Tiempo de Ejecución: 1,33 seg
+per_agr_marcas - I - paso bullk
+...
+per_agr_marcas - F - paso bullk
+per_agr_marcas - I - paso bullk
+...
+per_agr_marcas - F - paso bullk
+per_agr_marcas - I - paso bullk
+...
+per_agr_marcas - F - paso bullk
+per_agr_marcas - I - paso bullk
+...
+per_agr_marcas - F - paso bullk
+MIG_PER_AGR_MARCAS. 34306 reg cargados de 34306. Tiempo de Ejecución: ,52 seg
