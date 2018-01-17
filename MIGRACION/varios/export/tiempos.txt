@@ -1,0 +1,13 @@
+Tiempos De Inserts
+
+01_mig_personas_conf:      10889/3210,2260 s Reg: 394878/262263
+02_mig_direcciones_conf:   12889/7344,254  s Reg: 550976/550976(a procesar: 256424)
+03_mig_per_marcas:        115022?/586,567  s Reg: 115017
+04_mig_personas_rel_conf:    565 /134,184  s Rel: 42914/42873
+05_mig_agentes_conf:            -/7,433    s Rel: -/42873
+--
+Ejecuta_Carga_sinDir          : 842,402 s
+Ejecuta_Carga_Solo_Direcciones:   ?     s
+--
+tcpip v4
+--
