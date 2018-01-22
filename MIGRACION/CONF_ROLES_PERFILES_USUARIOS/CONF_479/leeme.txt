@@ -1,0 +1,39 @@
+*******************************************************************
+  CONF_479
+  08/06/2017 - jaesteban
+*******************************************************************
+
+
+BUG:
+  CONF-838
+
+Descripción:
+  MIgración de usuarios
+
+Versión:
+  iAxis v16
+
+Observaciones:
+  [Notas al cliente o para integración]
+
+Patches relacionados:
+
+
+*******************************************************************
+
+
+- Sql:
+
+- Sql:
+
+\sql\01_migra_usuarios_conf_479.sql
+\sql\refresh_web_persistencia.wql
+
+- Webcontext:
+
+
+*******************************************************************
+
+
+Objetos a eliminar del repositorio:
+  [relación de objetos si procede]

@@ -1,0 +1,84 @@
+declare
+ vdrop varchar2(2000) := 'drop table web_persistencia purge';
+ vcreate varchar2(2000) := ' CREATE TABLE WEB_PERSISTENCIA 
+(
+  IDSESSION                      VARCHAR2(500 BYTE) PRIMARY KEY,
+  web_persis_produccion          t_persis_produccion,
+  web_persis_suplemento          t_persis_suplemento,
+  web_persis_siniestro           t_persis_siniestro,
+  web_persis_simulacion          t_persis_simulacion,
+  web_persis_persona             t_persis_persona,
+  web_persis_comision            t_persis_comision,
+  web_persis_descuento           t_persis_descuento,  
+  web_persis_iaxpar_productos    t_persis_iaxpar_productos,
+  web_persis_fincas            	 t_persis_fincas,
+  web_persis_facturas          	 t_persis_facturas,  
+  cusuari                        varchar2(30),
+  fcreacion                      timestamp,
+  facceso                        timestamp
+)';
+vcomment0   varchar2(2000) := 'COMMENT ON TABLE WEB_PERSISTENCIA IS ''Tabla para persistencia de la aplicacion en base de datos''';
+vcomment1   varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.IDSESSION IS ''Identificador de session web''';
+vcomment2   varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.web_persis_produccion IS ''Datos relacionados con la producción''';
+vcomment3   varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.web_persis_suplemento IS ''Datos relacionados con los suplementos''';	
+vcomment4   varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.web_persis_siniestro IS ''Datos relacionados con los siniestro''';
+vcomment5   varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.web_persis_simulacion IS ''Datos relacionados con la simulacion''';
+vcomment6   varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.web_persis_persona IS ''Datos relacionados con la persona''';
+vcomment7   varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.web_persis_iaxpar_productos IS ''Datos relacionados con los productos''';
+vcomment8   varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.cusuari IS ''Usuario propietario de la sesión''';
+vcomment9   varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.fcreacion IS ''Fecha de creación de la sesión''';
+vcomment10  varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.facceso IS ''Fecha de último acceso a la sesión''';	
+vcomment11  varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.web_persis_comision IS ''Datos relacionados con la comision''';
+vcomment12  varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.WEB_PERSIS_DESCUENTO IS ''Datos relacionados con el descuento''';
+vcomment13  varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.WEB_PERSIS_FINCAS IS ''Datos relacionados con nuevo modelo de direcciones''';
+vcomment14  varchar2(2000) := 'COMMENT ON COLUMN WEB_PERSISTENCIA.WEB_PERSIS_FACTURAS IS ''Datos relacionados con nuevo modelo de facturas''';
+	
+ 
+ vcount number;
+begin 
+ select count('x')
+   into vcount
+  from user_objects
+  where object_name = 'PAC_PERSISTENCIA'
+  and status <> 'VALID';
+
+if vcount>0 then 
+BEGIN
+DECLARE 
+  VSCHEMA VARCHAR2(200);
+  COMPILE_ALL BOOLEAN;
+  REUSE_SETTINGS BOOLEAN;
+
+BEGIN 
+   SELECT upper(USERNAME) 
+      into VSCHEMA 
+      FROM USER_USERS;  
+  
+  COMPILE_ALL := FALSE;
+  REUSE_SETTINGS := FALSE;
+  DBMS_UTILITY.COMPILE_SCHEMA ( VSCHEMA, COMPILE_ALL, REUSE_SETTINGS );
+END; 
+  execute immediate vdrop;
+
+END ;
+
+
+  execute immediate vcreate;
+  execute immediate vcomment0;
+  execute immediate vcomment1;
+  execute immediate vcomment2;
+  execute immediate vcomment3;
+  execute immediate vcomment4;
+  execute immediate vcomment5;
+  execute immediate vcomment6;
+  execute immediate vcomment7;
+  execute immediate vcomment8;
+  execute immediate vcomment9;
+  execute immediate vcomment10;
+  execute immediate vcomment11;
+  execute immediate vcomment12;  
+  execute immediate vcomment13;
+  execute immediate vcomment14;  
+end if;
+end;
+/
